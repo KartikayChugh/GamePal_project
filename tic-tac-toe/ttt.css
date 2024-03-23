@@ -1,0 +1,111 @@
+/* Removing the default margin and padding, not necessary but good practice : */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #6e7276;
+    text-align: center;
+    color: #fff;
+    
+}
+
+h1{
+    margin-top: 10vh;
+    color: #ffbc51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    /* Dynamic height : (70Vh [viewport height] means 70% of our visible page) */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.game{
+    /* vmin means 1% of teh viewports smaller dimension */
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+
+.box{
+    /* We want 3 boxes to come in one line so if your height in total is 60% then each line gets 20% making 3 lines. */
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    font-size: 8vmin;
+    color: #333;
+    /* border: none;
+       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    */
+    background-color: #ecf0f1;
+   
+}
+
+
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#3498db;
+    color:  #fff;
+    border-radius: 2rem;
+    /*border-color: #5171a5;*/
+    
+}
+
+#new{
+ /*   position: fixed;  */
+
+    
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 2rem;
+    
+    
+}
+
+#msg{
+    color: #ff7869;
+    font-size: 7vmin;
+    height:83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none; 
+}
+
+.inv{
+    color: #ff4c49;
+}
+

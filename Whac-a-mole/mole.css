@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3f639a;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+
+    color: rgb(254, 160, 160);
+   
+}
+
+
+h3 {
+    text-align: center;
+
+    color: whitesmoke;
+    margin: 0.3rem;
+}
+
+h4{
+    text-align: center;
+    font-style: italic;
+
+    color: rgb(252, 225, 142);
+}
+
+
+
+
+.grid {
+    width: 386px;
+    height: 386px;
+    margin: auto; /* to center aign the grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px; 
+}
+
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border: 2px solid #333;  
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.mole {
+    background-image: url('mole3.png');
+    background-size: cover;
+}
+
+
+button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+

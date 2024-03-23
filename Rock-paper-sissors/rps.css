@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8E7AB5; 
+    font-family: Arial, sans-serif; 
+}
+
+.a {
+    text-align: center; 
+
+}
+h1{
+    text-align: center; 
+    color: #ffd89d;
+  
+}
+
+h2 {
+    color: #fff;
+    font-size: 22px;
+   
+}
+
+button {
+    height: 40px; 
+    width: 100px; 
+    background-color: #E493B3; 
+    color: #fff; 
+    font-size: 16px;
+    border: none; 
+    cursor: pointer; /* Adding a pointer cursor on hover  */
+    margin: 10px; /* Adding margin around buttons */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+
+button:hover {
+    background-color: #D56C91;
+}
